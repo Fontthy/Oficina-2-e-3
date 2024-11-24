@@ -1,0 +1,595 @@
+:root {
+  --fallback-font-stack: Helvetica, Arial, serif;
+}
+
+.untitled-page3.main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0;
+  background-color: black;
+  overflow: hidden;
+}
+.untitled-page3 .destinationSection {
+  display: flex;
+  flex-direction: column;
+  background-color: #121214;
+}
+.untitled-page3 .menuContainer {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  margin: 37px auto 36px;
+  width: 721.9921875px;
+  max-width: 85%;
+}
+@media (max-width: 575px) {
+  .untitled-page3 .menuContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 10px;
+  }
+}
+.untitled-page3 .menuItem {
+  font: 900 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .menuItem {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page3 .menuItem {
+    position: relative;
+    width: 100%;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .menuItem {
+    font-size: 20px;
+  }
+}
+.untitled-page3 .menuItem1 {
+  z-index: 4;
+  font: 900 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .menuItem1 {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page3 .menuItem1 {
+    position: relative;
+    width: 100%;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .menuItem1 {
+    font-size: 20px;
+  }
+}
+.untitled-page3 .menuItem2 {
+  z-index: 3;
+  font: 900 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .menuItem2 {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page3 .menuItem2 {
+    position: relative;
+    width: 100%;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .menuItem2 {
+    font-size: 20px;
+  }
+}
+.untitled-page3 .menuItem3 {
+  z-index: 2;
+  font: 900 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .menuItem3 {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page3 .menuItem3 {
+    position: relative;
+    width: 100%;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .menuItem3 {
+    font-size: 20px;
+  }
+}
+.untitled-page3 .romaItaliaInformationSection {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+.untitled-page3 .romaItaliaInformationSection1 {
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto 29px;
+  width: 100%;
+  max-width: 1440px;
+  background-color: rgba(255, 255, 255, 0.098);
+}
+@media (max-width: 383px) {
+  .untitled-page3 .romaItaliaInformationSection1 {
+    position: relative;
+    margin: 50px auto 29px;
+  }
+}
+.untitled-page3 .flex_col {
+  display: flex;
+  flex-direction: column;
+  row-gap: 70px;
+  margin: 0 0 70px;
+}
+@media (max-width: 383px) {
+  .untitled-page3 .flex_col {
+    position: relative;
+    row-gap: 50px;
+    margin: 0 0 50px;
+  }
+}
+.untitled-page3 .image {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.untitled-page3 .flex_col1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0;
+  margin: 0 2.85% 0 auto;
+  width: 89.31%;
+}
+.untitled-page3 .info3 {
+  margin: 0 auto;
+  width: 546px;
+  max-width: 85%;
+  font: 900 64px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -1.51px;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .info3 {
+    align-items: flex-start;
+    font-size: 52px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .info3 {
+    font-size: 36px;
+  }
+}
+.untitled-page3 .info2 {
+  margin: 70px 0 0;
+  width: 96.5%;
+  font: 700 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.2px;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .info2 {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .info2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page3 .info2 {
+    position: relative;
+    margin: 50px 0 0;
+  }
+}
+.untitled-page3 .info21 {
+  margin: 35px 29px 0 0;
+  font: 700 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.1px;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .info21 {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page3 .info21 {
+    position: relative;
+    margin: 35px 16px 0 0;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .info21 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page3 .info21 {
+    margin: 35px 8px 0 0;
+  }
+}
+.untitled-page3 .info22 {
+  margin: 35px 30px 0 0;
+  font: 700 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.2px;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .info22 {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page3 .info22 {
+    position: relative;
+    margin: 35px 16px 0 0;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .info22 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page3 .info22 {
+    margin: 35px 8px 0 0;
+  }
+}
+.untitled-page3 .info23 {
+  margin: 35px 38px 0 0;
+  font: 700 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.2px;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .info23 {
+    position: relative;
+    align-items: flex-start;
+    margin: 35px 32px 0 0;
+    font-size: 22px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page3 .info23 {
+    margin: 35px 16px 0 0;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .info23 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page3 .info23 {
+    margin: 35px 8px 0 0;
+  }
+}
+.untitled-page3 .info24 {
+  margin: 35px 11px 0 0;
+  font: 700 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.1px;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .info24 {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .info24 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page3 .info24 {
+    position: relative;
+    margin: 35px 8px 0 0;
+  }
+}
+.untitled-page3 .info25 {
+  margin: 35px 0 0;
+  font: 700 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.1px;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .info25 {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .info25 {
+    font-size: 20px;
+  }
+}
+.untitled-page3 .info26 {
+  margin: 35px 7px 0 0;
+  font: 700 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.2px;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .info26 {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .info26 {
+    font-size: 20px;
+  }
+}
+.untitled-page3 .travelWishlistSection {
+  display: flex;
+  flex-direction: column;
+}
+.untitled-page3 .destinationOverview {
+  display: flex;
+  flex-direction: column;
+  margin: 31px auto 0;
+  width: 100%;
+  max-width: 1440px;
+  background-color: #121214;
+}
+.untitled-page3 .contentWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 105px auto;
+  width: 85.42%;
+  background-color: #191919;
+  outline: 10px solid black;
+  outline-offset: 0;
+}
+@media (max-width: 575px) {
+  .untitled-page3 .contentWrapper {
+    position: relative;
+    margin: 80px auto;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page3 .contentWrapper {
+    margin: 50px auto;
+  }
+}
+.untitled-page3 .mainContainer {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  margin: 39px 0 79px 6.34%;
+  width: 942.0703125px;
+  max-width: 85%;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .mainContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 10px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page3 .mainContainer {
+    position: relative;
+    margin: 39px 0 50px 6.34%;
+  }
+}
+.untitled-page3 .creatorProfile {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 505px;
+  min-width: 0;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .creatorProfile {
+    position: relative;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.untitled-page3 .profileTitle {
+  z-index: 1;
+  font: 600 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.1px;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .profileTitle {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .profileTitle {
+    font-size: 20px;
+  }
+}
+.untitled-page3 .profileDesc {
+  font: 500 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -0.1px;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .profileDesc {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .profileDesc {
+    font-size: 20px;
+  }
+}
+.untitled-page3 .destinationList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin: 0 0 38px;
+  width: 240px;
+  min-width: 0;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .destinationList {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.untitled-page3 .listTitle {
+  font: 600 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .listTitle {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .listTitle {
+    font-size: 20px;
+  }
+}
+.untitled-page3 .destinationGrid {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+}
+@media (max-width: 383px) {
+  .untitled-page3 .destinationGrid {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.untitled-page3 .leftColumn {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 114px;
+  min-width: 0;
+}
+.untitled-page3 .cityBraga {
+  font: 700 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .cityBraga {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .cityBraga {
+    font-size: 20px;
+  }
+}
+.untitled-page3 .cityRoma {
+  z-index: 1;
+  font: 700 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .cityRoma {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .cityRoma {
+    font-size: 20px;
+  }
+}
+.untitled-page3 .cityCalifornia {
+  font: 700 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .cityCalifornia {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .cityCalifornia {
+    font-size: 20px;
+  }
+}
+.untitled-page3 .rightColumn {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin: 0 0 39px;
+  width: 81px;
+  min-width: 0;
+}
+.untitled-page3 .cityParis {
+  margin: 0 21px 0 0;
+  font: 700 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .cityParis {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page3 .cityParis {
+    position: relative;
+    margin: 0 16px 0 0;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .cityParis {
+    font-size: 20px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page3 .cityParis {
+    margin: 0 8px 0 0;
+  }
+}
+.untitled-page3 .cityTokyo {
+  font: 700 24px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page3 .cityTokyo {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page3 .cityTokyo {
+    font-size: 20px;
+  }
+}
